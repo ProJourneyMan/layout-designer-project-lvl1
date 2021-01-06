@@ -18,6 +18,19 @@ body p
     color: #2A2626;
 }
 
+p 
+{
+    column-count: 2;
+    column-gap: 30px; 
+}
+
+header section main footer 
+{
+max-width: 1100px;
+margin: auto;
+padding: 100px;
+}
+
 h1 h2 h3 
 {
     font-family: Neucha;
@@ -39,9 +52,11 @@ h3
     font-size: 34px;
 }
 
-section 
-{
-max-width: 1100px;
-margin: auto;
-padding: 100px;
+
+
+.background::before {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
 }
